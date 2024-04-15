@@ -53,19 +53,3 @@ document.getElementById("locations").addEventListener("change", function() {
     selectedValue = this.value;
     console.log("Location:", selectedValue);
 });
-// console.log("Selected value:", selectedValue);
-
-// for (let i = 0; i < bathLabel.length; i++) {
-//     bathLabel[i].addEventListener('click', () => {
-//         bath.forEach(input => {
-//             input.style.backgroundColor = '#e4e4e4';
-//         });
-//         bathLabel.forEach(input => {
-//             input.style.backgroundColor = '#e4e4e4';
-//         });
-//         // pastID = bhk[i];
-//         bath[i].style.backgroundColor = ' rgb(83, 83, 85)';
-//         bathLabel[i].style.backgroundColor = ' rgb(83, 83, 85)';
-//         console.log(bath[i]);
-//     });
-// }
