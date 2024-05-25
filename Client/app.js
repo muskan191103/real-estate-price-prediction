@@ -62,26 +62,6 @@ document.getElementById("locations").addEventListener("change", function() {
     console.log("Location:", locationvalue);
 });
 
-// function getBathValue(){
-//     var uiBath=document.getElementsByName("uiBATH");
-//     for (var i in uiBath){
-//         if (uiBath[i].checked){
-//             return parseInt(i)+1;
-//         }
-//     }
-//     return -1;
-// }
-
-// function getBhkValue(){
-//     // var uiBhk=document.getElementsByName("uiBHK");
-//     // for (var i in uiBhk){
-//     //     if (uiBhk[i].checked){
-//     //         return parseInt(i)+1;
-//     //     }
-//     // }
-//     // return -1;
-// }
-
 function onClickedEstimatePrice(){
     var sqft = document.getElementById('area');
     var bhk = bhkvalue;
